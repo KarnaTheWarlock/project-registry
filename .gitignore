@@ -144,4 +144,4 @@ vite.config.ts.timestamp-*
 package-lock.json
 
 .stignore
-.stfolder/syncthing-folder-8a7f65.txt
+.stfolder/
