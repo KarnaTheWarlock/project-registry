@@ -42,6 +42,7 @@
                 p {
                     margin: 0px;
                     margin-left: 12px;
+                    color: var(--color-primary);
                 }
             }
 
@@ -52,6 +53,8 @@
         }
 
         main {
+            margin-bottom: 80%;
+
             nav {
                 ul {
                     display: flex;
@@ -78,6 +81,19 @@
             }
         }
 
+        .grid-background {
+            /* Set your dark base color */
+            background-color: #0a0a0a;
+
+            /* Create the grid using gradients */
+            background-image:
+                linear-gradient(to right, #ffffff10 1px, transparent 1px),
+                linear-gradient(to bottom, #ffffff10 1px, transparent 1px);
+
+            /* Define the size of each grid square */
+            background-size: 24px 18px;
+        }
+
         @keyframes fadeInPulse {
             0% {
                 opacity: 0.5;
@@ -97,7 +113,7 @@
     </style>
 </head>
 
-<body>
+<body class="grid-background">
     <header>
         <div class="title">
             <h1>Project Registry</h1>
