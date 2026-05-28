@@ -13,9 +13,13 @@
   "license": "ISC",
   "author": "karna",
   "type": "commonjs",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "prl": "./dist/index.js"
+  },
   "scripts": {
-    "dev": "tsc --watch"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "devDependencies": {
     "typescript": "^6.0.3"
