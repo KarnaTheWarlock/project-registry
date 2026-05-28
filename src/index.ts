@@ -1,2 +1,8 @@
 #!/usr/bin/env node
-console.log("hi fron prl");
+import { program } from "commander"
+
+program
+.description("Project Registry Linker - Manage your projects across directories")
+
+
+program.parse()
