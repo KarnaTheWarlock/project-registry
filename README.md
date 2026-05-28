@@ -1,6 +1,6 @@
 # Project Registry
 
 ## Team
-Jogeshwar 
-<br>
 Kedar
+<br>
+Jogeshwar 
