@@ -1,0 +1,26 @@
+{
+  "name": "project-registry",
+  "version": "0.0.1",
+  "description": "cli application to manage user projects",
+  "homepage": "https://github.com/KarnaTheWarlock/prl#readme",
+  "bugs": {
+    "url": "https://github.com/KarnaTheWarlock/prl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarnaTheWarlock/prl.git"
+  },
+  "license": "ISC",
+  "author": "karna",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
