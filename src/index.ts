@@ -6,4 +6,7 @@ program
 .description("Project Registry Linker - Manage your projects across directories")
 
 
+program.command("init").action(() => {
+    console.log("runnung: init cmd")
+})
 program.parse()
